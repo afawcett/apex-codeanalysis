@@ -3,6 +3,8 @@ Apex Code Analysis Tool using Tooling API and Canvas
 
 This tool utilises the new **Spring'13 Tooling API** and the **Canvas** technology to fill a gap in the Apex developers toolkit. That being the ability to perform analysis on the Apex code they are developing. This initial prototype shows how the SymbolTable information can be used to list unused Apex methods. More information and background to this can be found at my blog [here](http://andrewfawcett.wordpress.com/2013/02/02/spring13-clean-apex-code-with-the-tooling-api). For more information on how to run and deploy this sample, please refer to the [Force.com Canvas Developers Guide](http://www.salesforce.com/us/developer/docs/platform_connect/index.htm).
 
+For more information see my blog entry [Spring'13 Clean Apex Code with the Tooling API](http://andrewfawcett.wordpress.com/2013/02/02/spring13-clean-apex-code-with-the-tooling-api).
+
 Generating the Tooling API Client Proxies (with JAX-WS) and Maven
 -----------------------------------------------------------------
 
