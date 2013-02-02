@@ -15,4 +15,4 @@ In order to consume the Tooling API in Java I chose the SOAP protocol, since Jav
   - I needed to add the SessionHeader soap header declaration to some of the operations I wanted (others had it). 
   - I also needed to remove 'id' element declarations that appeared to be duplicates of what would be inherited from the SObject base schema type in the WSDL. This caused the generated code to stop generating get/set methods and fall back to name/value pair convention.
 
-I am not sure if the Salesforce WSC compiler tool would have had these issues, thats something I want to look into. However for now the JAX-WS tool does work great insight a Maven build project once the above is sorted.
+I am not sure if the Salesforce WSC compiler tool would have had these issues, thats something I want to look into. However for now the JAX-WS tool does work great inside a Maven build project once the above is sorted.
